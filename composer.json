@@ -1,0 +1,23 @@
+{
+    "name": "cash/slicer",
+    "type": "library",
+    "description": "PDF extraction library",
+    "keywords": ["pdf"],
+    "homepage": "https://github.com/cash/slicer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cash Costello",
+            "email": "cash.costello@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Slicer": "src/"
+        }
+    }
+}
