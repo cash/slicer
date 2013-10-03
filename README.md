@@ -5,6 +5,7 @@ PHP library for converting a pdf to a set of images inspired by the grim ruby ge
 
 Example
 ------
+```
 require_once __DIR__ . '/slicer/vendor/autoload.php';
 
 use Slicer\Slicer;
@@ -19,3 +20,4 @@ echo count($pdf) . "\n";
 foreach ($pdf as $index => $page) {
     $page->export("image_{$index}.png");
 }
+```
